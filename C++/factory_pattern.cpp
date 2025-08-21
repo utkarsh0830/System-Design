@@ -143,7 +143,6 @@ int main(){
     if(rominusBasicBurger) rominusBasicBurger->prepare();
     if(premiumGarlicBread) premiumGarlicBread->prepare();
 
-    // cleanup
     delete cheeseBurger;
     delete premiumBurger;
     delete cheeseGarlicBread;
