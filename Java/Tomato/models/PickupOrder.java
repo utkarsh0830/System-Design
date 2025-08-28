@@ -20,5 +20,5 @@ public class PickupOrder extends Order {
         return restaurantAddress;
     }
 
-    // Implement remaining Order methods with actual fields
+  
 }
