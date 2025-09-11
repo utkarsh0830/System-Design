@@ -3,20 +3,6 @@ A curated collection of system design patterns with practical, easy-to-understan
 
 Each pattern is implemented in a self-contained manner, allowing you to explore and learn each concept independently without external dependencies (beyond standard build tools).
 
-📁 Repository Structure
-The project is meticulously organized to provide a clear path for learning and reference.
-
-.
-├── C++/
-│   ├── Singleton/     
-│   ├── Command/     
-│   └── Facade/     
-│
-└── Java/
-    ├── Singleton/
-    ├── Command/
-    └── Facade/
-
 ✨ Key Feature: Every folder contains self-contained examples with detailed comments to help you understand the pattern's intent, structure, and implementation from the ground up.
 
 💡 Included Design Patterns
