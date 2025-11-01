@@ -1,91 +1,88 @@
-📚 System Design Patterns Library
-A curated collection of system design patterns with practical, easy-to-understand examples in Java and C++. This repository is designed to be an invaluable resource for developers and students looking to master the principles of scalable, maintainable, and robust software architecture.
+# 📚 System-Design & System Design Patterns Library
 
-Each pattern is implemented in a self-contained manner, allowing you to explore and learn each concept independently without external dependencies (beyond standard build tools).
+A curated collection of **system design projects** and **design pattern implementations** in **C++ and Java**, built to bridge the gap between theoretical architecture concepts and real-world software engineering.  
+This repository serves as a **hands-on learning library** for developers and students who want to master **scalable, maintainable, and robust software design** through practical, self-contained examples.
 
-✨ Key Feature: Every folder contains self-contained examples with detailed comments to help you understand the pattern's intent, structure, and implementation from the ground up.
+---
 
-💡 Included Design Patterns
-This library covers the most essential patterns from each of the three main categories.
+## 🌟 Overview
 
-1. Creational Patterns
-These patterns provide flexible mechanisms to create objects in a way that is suited to a specific context, without coupling the client code to the concrete classes being instantiated.
+This repository combines two major focuses:
 
-Singleton: Ensures a class has only one instance and provides a global point of access to it.
+1. **System Design Implementations (C++)** — Real-world systems like Music Player and Zomato modeled using architecture principles, OOP, and modular design.  
+2. **System Design Patterns Library (C++ & Java)** — A collection of clean, well-commented design pattern implementations with examples that demonstrate how reusable, extensible software is structured.
 
-Factory Method: Defines an interface for creating an object, but lets subclasses decide which class to instantiate.
+Every project and pattern is **independent and self-contained**, with clear documentation and comments that make it easy to explore, run, and understand each concept in isolation.
 
-Abstract Factory: Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+---
 
-Builder: Separates the construction of a complex object from its representation, allowing the same construction process to create different representations.
+## 🎯 Goals
 
-2. Structural Patterns
-These patterns deal with the composition of classes and objects to form larger, more complex structures.
+- Demonstrate how **theoretical design patterns** are applied in **real systems**.  
+- Provide **production-like C++ and Java implementations** for major software architecture concepts.  
+- Encourage writing **clean, maintainable, and extensible code** guided by SOLID principles.  
+- Serve as a **ready reference** for interview preparation, learning, and teaching.
 
-Adapter: Allows objects with incompatible interfaces to collaborate.
+---
 
-Decorator: Attaches new responsibilities to an object dynamically, providing a flexible alternative to subclassing.
+## 🧠 Core Sections
 
-Facade: Provides a simplified interface to a complex subsystem.
+### 1️⃣ System Design Projects (C++)
 
-Proxy: Provides a placeholder or surrogate for another object to control access to it.
+#### 🎵 Music Player Application
+A fully object-oriented music player built with **Strategy** and **Observer** patterns.  
+It manages playlists, playback control, and event notification efficiently while demonstrating modular architecture.
 
-3. Behavioral Patterns
-These patterns are concerned with algorithms and the assignment of responsibilities between objects, describing how objects interact with one another.
+#### 🍽️ Zomato System Architecture
+A simplified version of Zomato’s ecosystem that models restaurant discovery, order flow, and recommendation services using a **service-based architecture** approach.
 
-Observer: Defines a one-to-many dependency so that when one object changes state, all its dependents are notified.
+#### ⚙️ Features
+- Clean separation between services and data models  
+- Scalable and modular system layout  
+- Easy to extend for future functionalities like notifications or caching  
 
-Strategy: Defines a family of algorithms, encapsulates each one, and makes them interchangeable.
+---
 
-Command: Encapsulates a request as an object, allowing you to parameterize clients with different requests.
+### 2️⃣ System Design Patterns Library (C++ & Java)
 
-Chain of Responsibility: Avoids coupling the sender of a request to its receiver by giving more than one object a chance to handle the request.
+A comprehensive library of **design patterns**, grouped by category and implemented with **detailed comments** to explain their structure and purpose.
 
-🚀 Getting Started
-Prerequisites
-Before you begin, ensure you have the following installed:
+✨ **Key Feature**  
+Each folder includes **standalone, executable examples** — no frameworks, no external dependencies — just standard C++ or Java.
 
-A C++17 compatible compiler (e.g., g++ 8+, clang++, or Visual Studio 2017+).
+---
 
-Java 8+ (JDK) for running the Java examples.
+## 💡 Included Design Patterns
 
-How to Run the Examples
-Each example is designed to be compiled and run from its respective directory.
+### 🏗️ Creational Patterns
+These patterns deal with object creation mechanisms, ensuring flexibility and scalability.
 
-Running Java Examples
+- **Singleton** — Ensures a class has only one instance and provides a global point of access to it.  
+- **Factory Method** — Defines an interface for object creation, letting subclasses decide which class to instantiate.  
+- **Abstract Factory** — Provides an interface for creating related objects without specifying their concrete classes.  
+- **Builder** — Separates object construction from its representation, enabling different configurations.
 
-Navigate to the Java directory for the desired pattern.
+---
 
-Compile the source files using javac.
+### 🧩 Structural Patterns
+Focus on object composition to form larger, more complex structures.
 
-Run the main class.
+- **Adapter** — Enables collaboration between incompatible interfaces.  
+- **Decorator** — Dynamically adds new behavior to an object without modifying its structure.  
+- **Facade** — Simplifies complex subsystems by providing a unified interface.  
+- **Proxy** — Provides a surrogate object to control access to another.
 
-# Example: Running the Singleton Pattern
-cd Java/creational/singleton
-javac *.java
-java SingletonExample
+---
 
-Running C++ Examples
+### ⚙️ Behavioral Patterns
+Define how objects communicate and distribute responsibilities.
 
-Navigate to the C++ directory for the desired pattern.
+- **Observer** — Maintains a one-to-many dependency where dependents are notified automatically of state changes.  
+- **Strategy** — Encapsulates interchangeable algorithms, enabling runtime flexibility.  
+- **Command** — Encapsulates a request as an object, allowing flexible command execution.  
+- **Chain of Responsibility** — Passes requests along a chain until one handles it, decoupling sender and receiver.
 
-Compile the source file using your C++17 compiler.
+---
 
-Execute the compiled program.
+## 🧰 Repository Structure
 
-# Example: Running the Singleton Pattern
-cd C++/creational/singleton
-g++ -std=c++17 Singleton.cpp -o singleton_example
-./singleton_example
-
-🤝 Contributing
-Contributions are highly welcome! If you have a new design pattern you'd like to add, an improvement to an existing example, or a bug to report, please feel free to:
-
-Fork this repository.
-
-Create a new branch for your feature or bug fix.
-
-Submit a Pull Request with a clear description of your changes.
-
-📧 Contact
-For questions or suggestions, please feel free to reach out.
