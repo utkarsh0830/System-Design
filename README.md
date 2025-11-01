@@ -84,5 +84,3 @@ Define how objects communicate and distribute responsibilities.
 
 ---
 
-## 🧰 Repository Structure
-
